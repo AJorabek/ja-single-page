@@ -1,0 +1,48 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.4rem;
+  padding-bottom: 3.4rem;
+  align-items: center;
+}
+@media screen and (max-width: 400px) {
+  .header__logo {
+    margin-right: 10rem;
+  }
+  .header__btn {
+    margin-left: 5rem;
+    padding-bottom: 1rem;
+
+    font-size: 10px;
+  }
+  .black-btn {
+    padding: 0;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .black-btn:hover {
+    background-color: $black-color;
+  }
+}
+@media screen and (max-width: 501px) {
+  .header__logo__img {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+  .btn {
+    max-width: 228px;
+    height: 56px;
+  }
+  .header__btn {
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-right: -1rem;
+  }
+  .header__container {
+    align-items: center;
+    padding-top: 1.8rem;
+  }
+}
